@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  app-root {
+    flex: 1;
+  }
+}
+app-root:has(app-login) {
+  background-image: url('/assets/REPOSITORIO-2048x1152.webp'); /* Aquí puedes reemplazar con la imagen del fondo */
+  background-size: cover;
+  background-position: center;
+}

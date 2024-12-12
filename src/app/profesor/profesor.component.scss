@@ -1,0 +1,75 @@
+:host {
+  display: block;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: #8DC63F;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+header img {
+  width: 50px;
+  margin-right: 15px;
+}
+header h1 {
+  margin: 0;
+  color: white;
+}
+.container {
+  display: flex;
+  margin: 20px;
+}
+.sidebar {
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+.sidebar input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.list-group {
+  list-style: none;
+  padding: 0;
+}
+.list-group li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  color: #555;
+}
+.list-group li span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+.content {
+  flex-grow: 1;
+  padding: 10px;
+  text-align: center;
+}
+.subject {
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  background-color: #EDEDED;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border-radius: 8px;
+}
+.subject:hover {
+  border: 2px solid #3E8E41;
+}
+.subject img {
+  width: 50px;
+}
+.search-bar {
+  width: 40%;
+  margin: 0 auto 20px auto;
+}
+.search-bar input {
+  width: 80%;
+  padding: 5px;
+}

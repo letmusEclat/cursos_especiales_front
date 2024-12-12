@@ -1,0 +1,35 @@
+<!-- Contenido principal -->
+<main>
+  <div class="breadcrumb">
+      Home / Materias / Cursos / Curso A2
+  </div>
+
+  <div class="student-detail">
+      <div class="student-photo">
+          <img src="https://via.placeholder.com/100" alt="Foto Estudiante">
+      </div>
+      <div class="student-info">
+          <h2>Lucia Castelblanco Rojas</h2>
+          <p>2122433</p>
+
+          <div class="course-details">
+              <div>
+                  <strong>Curso:</strong> <span>Curso A2 - Física 1</span>
+              </div>
+              <div>
+                  <strong>Nota:</strong> <span>{{curso.nota}}</span>
+              </div>
+              <div>
+                  <strong>Estado aprobatorio:</strong> <span>{{curso.estado}}</span>
+              </div>
+              <div>
+                  <strong>Acta:</strong>
+                  <a>
+                      {{curso.acta}}
+                      <img class="icon" src="https://img.icons8.com/material-outlined/24/download--v1.png" alt="Icono Descargar">
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</main>
